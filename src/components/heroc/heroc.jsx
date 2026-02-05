@@ -7,7 +7,7 @@ const Heroc = () => {
     <div className={styles.heroc}>
         <div className={styles.contentheroc}>
             <h1>A <span>Place</span> Where<br />Art Meets<br /><span>Code</span></h1>
-            <p className={styles.para}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+            <p className={styles.para}>Lorem ipsum dolor sit amet<br />consectetur adipisicing elit. Voluptas, voluptate.</p>
         </div>
         <div className={styles.btn}>
             <ArrowUpRight size={67} color="#1c2120" className={styles.arrow}/>

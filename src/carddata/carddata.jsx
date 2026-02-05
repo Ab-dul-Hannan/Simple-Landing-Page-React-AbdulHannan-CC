@@ -1,16 +1,24 @@
-import c1 from './assets/images/c1.png';
-import c2 from './assets/images/c2.png';
-import c3 from './assets/images/c3.png';
+import c1 from '../assets/images/c1.jpg';
+import c2 from '../assets/images/c2.jpg';
+import c3 from '../assets/images/c3.jpg';
+import c4 from '../assets/images/c4.jpg';
 
 const cardARRR = [
     {
-        img: c1,
+        id: 1,
+        image: c1,
     },
     {
-        img: c2,
+        id: 2,
+        image: c2,
     },
     {
-        img: c3,
+        id: 3,
+        image: c3,
+    },
+    {
+        id: 4,
+        image: c4,
     }
 ]
 

@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: "JetBrains Mono", monospace;
   height: 100vh;
   width: 100%;
@@ -13,7 +13,7 @@ body{
   cursor: default;
 }
 
-#root{
+#root {
   height: 100%;
   max-width: 1600px;
   width: 100%;
@@ -28,21 +28,50 @@ span {
   color: #7ed957;
 }
 
-.hero-section{
+.hero-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   height: 600px;
-  gap: 40px;
-  /* height: max-content; */
 }
 
-.card-section{
+.card-section {
   display: flex;
-  justify-content: right;
+  justify-content: flex-start;
   gap: 20px;
   width: 100%;
   height: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 10px;
+  scroll-behavior: smooth;
 }
 
+.card-section::-webkit-scrollbar {
+  height: 6px;
+}
+
+.card-section::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.card-section::-webkit-scrollbar-thumb {
+  background-color: #7ed957;
+  border-radius: 3px;
+  transition: background ease 0.3s;
+}
+
+.card-section::-webkit-scrollbar-thumb:hover {
+  background-color: #7ed957cc;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    height: max-content;
+  }
+  .card-section {
+    margin-bottom: 40px;
+  }
+}

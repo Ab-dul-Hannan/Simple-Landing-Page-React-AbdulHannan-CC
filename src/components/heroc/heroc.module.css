@@ -2,7 +2,6 @@
   width: auto;
   height: 100%;
   padding-top: 50px;
-  padding-right: 80px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -22,4 +21,25 @@
   transform: scale(1.2);
 }
 
+@media (max-width: 768px) {
+  .heroc {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    align-items: center;
+    text-align: center;
+  }
 
+  .para {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .arrow {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+  }
+}
