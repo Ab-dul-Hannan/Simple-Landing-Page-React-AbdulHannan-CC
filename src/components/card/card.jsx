@@ -10,7 +10,7 @@ const Card = (props) => {
             <div className={styles.number}>{props.id}</div>
             <div className={styles.cardlower}>
                 <div className={styles.cardcontent}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex assumenda exercitationem laborum necessitatibus modi possimus.
+                    {props.content || 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
                 </div>
                 <div className={styles.cardbtns}>
                     <button className={styles.readmorebtn}>Read More <ArrowRight size={16} /></button>
