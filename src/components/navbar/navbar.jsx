@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className={styles.navbar}>
       <div className={styles.logobtn}>Landing Page</div>
       <div className={styles.announce}>
-        <CornerDownRight size={18} color="#1c2120" /> <p>2026 &copy; Abdul Hannan. All Rights Reserved</p>
+        <CornerDownRight size={18} color="#1c2120" /> <p>2026 &copy; <span>Abdul Hannan.</span> All Rights Reserved</p>
       </div>
     </div>
   )
