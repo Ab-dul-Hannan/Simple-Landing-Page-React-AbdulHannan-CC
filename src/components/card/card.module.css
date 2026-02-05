@@ -50,6 +50,18 @@
   transform: scale(1.08);
 }
 
+@media (max-width: 1320px) {
+  .card {
+    min-width: 300px;
+  }
+  .cardcontent {
+    font-size: 14px;
+  }
+  .readmorebtn{
+    font-size: 14px;
+    padding: 12px;
+  }
+}
 @media (max-width: 768px) {
   .card {
     height: 450px;
