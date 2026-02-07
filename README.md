@@ -53,13 +53,13 @@ src/
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/react-landing-page.git
+   git clone https://github.com/yourusername/Simple-Landing-Page-React-AbdulHannan-CC.git
 ````
 
 2. Navigate to the project directory:
 
    ```bash
-   cd react-landing-page
+   cd Simple-Landing-Page-React-AbdulHannan-CC
    ```
 3. Install dependencies:
 
