@@ -17,6 +17,7 @@ A simple and responsive landing page with:
 - Interactive cards with background images
 - Read More buttons with icons
 - Modern, clean design
+Demo Link: https://simple-landing-page-react-abdul-han.vercel.app/
 
 ## Features
 - Responsive card layout
